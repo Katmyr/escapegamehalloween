@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Escape Game Halloween</title>
+</head>
+<body>
+    <h1>Escape Game Halloween</h1>
+    <h3>Tentez de récupérer la clé en trouvant le mot de passe !</h3>
+    <input type="text" id="input" placeholder="Entrez le code secret">
+    <button type="button" onclick="getValue();"><b>Valider</b></button>
+    <p>Une fois la clé obtenue, prenez une capture d'écran et envoyez-la sur le serveur discord pour valider votre victoire (afin d'éviter toute triche !).</p>
+    <p><b>À savoir : </b>Le code se compose d'une année, des réponses aux 2 énigmes et d'un nombre de plus de 3 chiffres (le tout sans accents ni espaces).</p>
+    <img src="https://sansquest.files.wordpress.com/2010/11/golden-key.jpg" width="300px" id="key" class="key">
+    
+    <script>
+        codesecret = "1821fantomepoupee4286"
+        function getValue() {
+            // Sélectionner l'élément input et récupérer sa valeur
+            var input = document.getElementById("input").value;
+            if(codesecret == input) {
+                key.style.opacity = "1"
+            }
+        }
+    </script>
+</body>
+</html>

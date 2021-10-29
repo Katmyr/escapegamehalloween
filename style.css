@@ -1,0 +1,30 @@
+input {
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #292929;
+    color: red;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(149, 224, 37);
+}
+
+img {
+    opacity: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: greenyellow;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
