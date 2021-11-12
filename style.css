@@ -17,7 +17,7 @@ button {
 }
 
 img {
-    opacity: 0;
+    visibility: hidden;
 }
 
 body {
